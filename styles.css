@@ -1,0 +1,129 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+}
+
+.help {
+  background-color: #dadbf1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+
+#helpInput {
+  width: 700px;
+  height: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.options {
+  width: 35%;
+  margin-top: 5rem;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  position: relative;
+}
+
+.footer ul li {
+  list-style: none;
+  color: #fff;
+}
+
+#abstract-header ul li {
+  display: inline;
+}
+
+#ablogo {
+  border-right: thin solid #fff;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-column {
+  width: 15%;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+img {
+  width: 70px;
+  float: left;
+}
+
+#helpLogo {
+  padding-left: 10px;
+}
+#ablogo {
+  width: 40px;
+  height: 40px;
+}
+
+#abstract-header {
+  font-size: 40px;
+}
+
+#signIn {
+  background-color: #4c5fd5;
+  color: white;
+  width: 8.5rem;
+  height: 3.5em;
+  min-height: auto;
+  padding: 0.8em;
+  border-radius: 12px;
+  /* margin-left: 20px; */
+}
+
+#submit {
+  background-color: #1d1d2c;
+  color: white;
+  width: 8.5rem;
+  height: 3.5em;
+  min-height: auto;
+  padding: 0.8em;
+  border-radius: 12px;
+  /* margin-left: 20px; */
+}
+
+.copyright {
+  position: absolute;
+
+  right: 0px;
+  bottom: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
